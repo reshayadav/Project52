@@ -6,7 +6,7 @@
 }
 .grid{ display: flex; 
     flex-wrap: wrap;
-     }
+ }
 
 .origami{
     background-color: #ffcda3;
@@ -28,6 +28,7 @@
     transform: translate(-50%,-50%);
 
 }
+
 .bodying p{
     position: absolute;
     top:30%;
@@ -35,12 +36,12 @@
 }
 
 a:link{
-  color:darksalmon
+  color:rgb(243, 100, 53);
 }
 a:visited{
     color: crimson;
 }
-.origame:hover{
+.origami:hover{
    transform: scale(1.2);
 }
 .menu{
@@ -63,6 +64,6 @@ p,h2{
     text-align: center;
     
 }
-.bodying,p{
+.bodying p{
     text-decoration-line: underline;
 }
